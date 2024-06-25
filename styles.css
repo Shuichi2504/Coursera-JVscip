@@ -1,0 +1,25 @@
+.image-container {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 300px; /* Vertically center text */
+    color: rgb(251, 3, 255);
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image-gallery img {
+    width: 200px; /* Adjust image size as needed */
+    height: auto;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  

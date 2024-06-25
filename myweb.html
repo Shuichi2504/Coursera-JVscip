@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Preview and Undo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="image" class="image-container">
+    <p id="image-text">Hover over an image below to display here.</p>
+  </div>
+
+  <div class="image-gallery">
+    <img id="preview1" src="https://c4.wallpaperflare.com/wallpaper/182/606/502/anime-solo-leveling-sung-jin-woo-hd-wallpaper-preview.jpg" alt="Anime, Solo Leveling, Sung Jin-Woo, HD wallpaper"  onmouseover="upDate('https://c4.wallpaperflare.com/wallpaper/182/606/502/anime-solo-leveling-sung-jin-woo-hd-wallpaper-preview.jpg', 'Anime, Solo Leveling, Sung Jin-Woo, HD wallpaper')" onmouseout="undo()">
+    <img id="preview2" src="https://c4.wallpaperflare.com/wallpaper/8/911/690/solo-leveling-sung-jin-woo-hd-wallpaper-preview.jpg" alt="Anime, Solo Leveling, HD wallpaper" onmouseover="upDate('https://c4.wallpaperflare.com/wallpaper/8/911/690/solo-leveling-sung-jin-woo-hd-wallpaper-preview.jpg', 'Anime, Solo Leveling, HD wallpaper')" onmouseout="undo()">
+    <img id="preview3" src="https://c4.wallpaperflare.com/wallpaper/104/517/295/dragon-ball-super-vegeta-super-saiyajin-blue-super-saiyan-blue-wallpaper-preview.jpg" alt="Dragonball Z wallpaper, Dragon Ball Super, Vegeta, Super Saiyajin Blue, HD wallpaper"  onmouseover="upDate('https://c4.wallpaperflare.com/wallpaper/104/517/295/dragon-ball-super-vegeta-super-saiyajin-blue-super-saiyan-blue-wallpaper-preview.jpg','Dragonball wallpaper Vegeta, Super Saiyajin Blue')" onmouseout="undo()">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
